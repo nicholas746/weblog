@@ -1,0 +1,155 @@
+/* Table Of Content */
+/*
+1.Section Settings
+2.page-title
+3.Blog
+4.beforeFooter
+5.footer
+
+
+*/
+
+
+/* 1.Section Settings */
+
+html,
+body{
+    height: 100%;
+}
+
+
+
+.bg-alpha {
+    background: rgba(0, 0, 0, 0.5)
+}
+
+
+
+
+/*2.page-title*/
+.page-title{
+    position: relative;
+    display: block;
+    padding-top: 250px;
+    padding-bottom: 100px;
+    color: #fff;
+    background-image: url(https://images.unsplash.com/photo-1625625003675-335a3202d20a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80);
+}
+
+.blog-image{
+    padding: 200px 0px 120px;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+
+@media (max-width: 1000px){
+    .timeline::before,
+    .timeline-badge{
+        left: 40px !important;
+    }
+
+    .timeline-badge::before{
+            right: -32px !important;
+    }
+
+    .timeline-badge p{
+        margin-left: 50px !important;
+        text-align: left;
+        float: left;
+    }
+
+    li > .timeline-card{
+        width: 100%;
+        text-align: left;
+        padding: 37px 0 0 85px;
+    } 
+
+
+}
+
+
+
+/*3.Blog*/
+.btn-group-custom button{
+    margin-bottom: 0.5rem;
+    width: 100px;
+
+}
+
+.warpper-card-img{
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+}
+
+.warpper-card-img img{
+    position: absolute;
+    top: 0;
+    transition: 0.5s;
+}
+
+.warpper-card-img img:hover{
+    transform: scale(1.2);
+}
+
+.blog-contend{
+    padding: 50px 100px;
+    box-shadow: 0px 0px 10px #a5a5a5;
+}
+
+.blog-contend img{
+    width: 25%;
+    background: #2b2b2b;
+}
+
+
+
+@media (max-width: 991px){
+    .blog-contend{
+        padding: 40px 50px;
+    }
+}
+
+@media (max-width: 200px){
+    .blog-contend{
+        padding: 20px 15px;
+    }
+}
+
+
+
+
+
+/*4.beforeFooter*/
+.beforeFooter{
+    position: relative;
+    display: block;
+    padding-top: 250px;
+    padding-bottom: 100px;
+    color: #fff;
+    background-image: url(https://images.unsplash.com/photo-1625625003675-335a3202d20a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80);
+}
+
+/*5.Footer*/
+.semi-footer{
+    background-color: #2b2b2b;
+    color: #fff;
+    
+}
+
+.semi-footer a{
+    color: #fff;
+}
+
+.semi-footer h4{
+    color: #75c6fc;
+    border-bottom: 1px solid;
+    padding: 10px 0;
+}
+
+.A{
+    margin: -8px;
+}
